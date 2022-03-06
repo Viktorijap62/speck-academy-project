@@ -1,0 +1,106 @@
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */ 
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(75, 73, 73);
+  }
+  
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    border-color: rgb(235, 22, 121);
+    border-style:outset;
+    border-width: 20px;
+}
+.about{
+    width: 100%;
+    padding: 78px;
+    background-color: rgb(255, 255, 255);
+}
+.about img{
+    height: auto;
+    width: 420px;
+    border-style:outset;
+    border-width: 10px;
+    border-color: rgb(235, 22, 121);
+    margin-left: 120px;
+}
+.about-text{
+    width: 550px
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin-top: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: rgb(235, 22, 121);
+    border-style:outset;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+.about-text h5{
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+}
+
+button1{
+    background: rgb(235, 22, 121);
+    color: rgb(3, 3, 3);
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 30px 40px;
+    border-radius: 30px;
+    transition: .3s;
+    margin-right: 100px;    
+}
+button2{
+    background: rgb(235, 22, 121);
+    color:rgb(3,3,3);
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 30px 40px;
+    border-radius: 30px;
+    transition: .3s;
+    margin-right: 585px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+    text-align: right;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    }
+footer h1{
+    text-align: center;
+    margin: 10px 50px 75px;
+}
